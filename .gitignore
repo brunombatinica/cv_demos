@@ -1,0 +1,39 @@
+# data directory
+/data/
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+env/
+venv/
+cards/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Conda environments
+*.conda
+*.yaml
+*.lock
+
+# Large files (optional)
+*.h5
+*.pkl
+*.ckpt
+
+# PyTorch-specific
+lightning_logs/
+checkpoints/
+runs/
