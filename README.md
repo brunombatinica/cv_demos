@@ -1,15 +1,13 @@
-# Simple MNIST demo to work on CNNs and torchvision syntax
+# CV_DEMOS
 
-## MNIST file is contained in the torchvision.datasets
+collection of simple computer vision datasetsa and models
 
-## alternatively download it using:
+currently includes 
+1. MNIST
+2. FashionMNIST
+3. CIFAR-10
 
-## Bash:
-
-## Powershell
-$datasetDir = "~\data"
-New-Item -ItemType Directory -Path $datasetDir
-kaggle datasets download -d avnishnish/mnist-original -p $datasetDir
+loaded from torchvision datasets in the notebooks
 
 
 
