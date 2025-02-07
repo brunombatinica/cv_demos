@@ -1,10 +1,14 @@
 # data directory
 /data/
 
+# mlflow
+mlruns/
+
 # Byte-compiled files
 __pycache__/
 *.py[cod]
 *.so
+
 
 # Virtual environments
 env/
